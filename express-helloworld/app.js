@@ -11,7 +11,7 @@ app.get('/mars', function(req, res){
 });
 
 app.get('/response', function(req, res){
-  response='Esta es la segunda version de la app\n';
+  response='Esta es la tercera version de la app\n';
   res.send(response);
 });
 
