@@ -12,7 +12,7 @@ app.get('/mars', function (req, res) {
 });*/
 
 app.get('/',function(req, res){
-  response = "Esta es la segunda version de la app c:\n";
+  response = "Esta es la segunda version de la app\n";
   res.send(response);
 }
 
