@@ -3,7 +3,7 @@ var response;
 app = express();
 
 app.get('/', function (req, res) {
-  response = "Esta en la segunda versión de la app!!\n";
+  response = "Esta en la segunda versión de la app c:\n";
   res.send(response);
 });
 
